@@ -1,0 +1,107 @@
+/* Text Style */
+
+@charset "UTF-8";
+
+@font-face {
+    font-family: "KiaSignature";
+    font-style: normal;
+    font-weight: 100;
+    src: url(../font/KiaSignatureLight.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "KiaSignature";
+    font-style: normal;
+    font-weight: 400;
+    src: url(../font/KiaSignatureRegular.woff2) format("woff2");
+}
+
+@font-face {
+    font-family: "KiaSignature";
+    font-style: normal;
+    font-weight: 700;
+    src: url(../font/KiaSignatureBold.woff2) format("woff2");
+}
+
+body { -webkit-font-smoothing: antialiased; color: rgb(255, 255, 255); font-family: 'KiaSignature','sans-serif';}
+
+div, ul, li { background-size: cover; background-position: center center;}
+/* Layout Style */
+
+button:hover { cursor: pointer;}
+
+/* Text Style */
+
+
+h1 {font-family: 'KiaSignature'; font-weight: 700; color: rgb(255, 255, 255); font-family: 'KiaSignature','sans-serif';}
+
+/* Color Style */
+
+
+/* tablet size */
+
+@media screen and (max-width:770px) {
+    .play_button {
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    overflow: visible;
+   }
+   .main_video_wrap h1 { 
+       font-size: 40px;
+         word-break: keep-all;
+      word-wrap: break-word;
+   }
+      /* main 2 */
+      .inspiration {
+         background-image: url(../img/manifesto_2-m.jpg); 
+          padding: 120px 0;  
+          }
+      .inspiration_text {
+         color: rgb(255, 255, 255); 
+         text-align: left;
+          width: 708px; height:240px; 
+          padding: 0 30px;
+          overflow-wrap: break-word;
+      }
+         .inspiration_text strong { 
+            font-size: 22px;
+            line-height: 35.2px;
+         }
+            .inspiration_text p {
+               font-size: 16px;
+               line-height: 25.6px;
+            }
+
+          
+
+  /* main 3   */
+.main {
+  background-image: url(../img/manifesto_3_m.jpg);
+}
+
+.main_3_title {
+   position: absolute;
+   left: 50%;
+   -webkit-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   width: 100%;
+   bottom: 20%;
+   font-size: 4rem;
+   font-weight: bold;
+   max-width: 30rem;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 1.3;
+   color: #fff;
+   z-index: 1;
+   -webkit-transition: all 0.7s ease-out;
+   -o-transition: all 0.7s ease-out;
+   transition: all 0.7s ease-out;
+}
+
+}
+   
