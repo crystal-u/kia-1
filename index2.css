@@ -1,0 +1,171 @@
+/* brand story  */
+.main_1_wrap, div {display: block;}
+
+.main_1 {
+height: auto;
+position: relative;
+overflow: hidden;
+}
+.play {
+   position: absolute;
+   top: 50%;
+   overflow: visible;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   text-align: center;
+  
+}
+.btn_play {
+   width: 70px;
+    height: 70px;
+    background-color: rgba(5, 20, 31, 0.4); 
+    border-radius: 35px;
+}
+.play span {
+   font-size: 16px;
+   display: block;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: rgb(255,255,255); 
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+h1 {
+   position: absolute;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 100%;
+   margin: 0 auto;
+   text-align: center;
+   line-height: 1.3;
+   z-index: 1;
+   bottom: 20%;
+}
+  /* list navigation */
+  .lnb {
+     padding-bottom: 80px;
+     position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    color: rgb(255,255,255);
+    transform: translate3d(0, 0, 0);
+  }
+.lnb_nav {
+   margin-top: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+    z-index: 10;
+    word-break: keep-all;
+    word-wrap: break-word;
+}
+.nav_item {
+   display: flex;
+   align-items: center;
+   position: relative;
+}
+/* menu_ brand story */
+.border_1 {
+   display: block;
+    position: relative;
+    width: 37px;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+}
+.item {
+   display: flex;
+    flex-direction: column;
+    align-items: center;
+   }
+.item a {
+   opacity: 1;
+    margin: 0 25px;
+    display: block;
+    padding: 0 15px;
+    text-align: center;
+    text-transform: uppercase;
+    flex: 0 1 auto;
+    max-width: none;  
+}
+.item_1_title {
+   display: inline-block;
+   font-size: 28px;
+   color: rgb(255, 255, 255);
+   font-family: 'KiaSignature', 'sans-serif';
+   font-weight: 700;
+    letter-spacing:4.2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 44.8px;
+}
+.border_2 {
+   display: block;
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 82.5px;
+}
+.item_2_title {
+   display: inline-block;
+   color:  rgba(255, 255, 255, 0.2);
+   font-size: 28px;
+   font-weight:  700;
+   letter-spacing: 4.2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 1.6;
+    line-height: 44.8px;
+}
+.border_3 {
+   display: block;
+   position: relative;
+   width: 100%;
+   height: 1px;
+   background: rgba(255, 255, 255, 0.2);
+}
+.item_3_title {
+   display: inline-block;
+   color:  rgba(255, 255, 255, 0.2);
+   font-size: 28px;
+   font-weight:  700;
+   letter-spacing: 4.2px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    line-height: 1.6;
+    line-height: 44.8px;
+}
+  /* 버튼 아이콘 크기 수정 ????????????????? */
+.btn_down {
+   /* width: 30px; height: 30px;  */
+   transform: translate3d(-50%, 0, 0);
+   animation: arrow-down infinite 1.5s;
+   cursor: pointer;
+   position: absolute;
+   bottom: -40px;
+   z-index: 1;
+   left: 50%;
+    width: 40px;
+    height: 40px;
+}
+      /* Arrow-down 애니메이션 적용 */
+   @keyframes arrow-down {
+    0% {
+      -webkit-transform: translate3d(-50%, 0, 0);
+              transform: translate3d(-50%, 0, 0); }
+    30% {
+      -webkit-transform: translate3d(-50%, 20%, 0);
+              transform: translate3d(-50%, 20%, 0); }
+    60% {
+      -webkit-transform: translate3d(-50%, 0, 0);
+              transform: translate3d(-50%, 0, 0); } 
+            }
+
+ /* manifesto 2             */
